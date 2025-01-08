@@ -1,0 +1,294 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user1\\source\\repos\\HumanResources\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|c:\\users\\user1\\source\\repos\\humanresources\\humanresources\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|solutionrelative:humanresources\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|c:\\users\\user1\\source\\repos\\humanresources\\humanresources\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|solutionrelative:humanresources\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|c:\\users\\user1\\source\\repos\\humanresources\\humanresources\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|solutionrelative:humanresources\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|c:\\users\\user1\\source\\repos\\humanresources\\humanresources\\data\\humanresourcescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|solutionrelative:humanresources\\data\\humanresourcescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|c:\\users\\user1\\source\\repos\\humanresources\\humanresources\\models\\systemuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|solutionrelative:humanresources\\models\\systemuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|c:\\users\\user1\\source\\repos\\humanresources\\humanresources\\models\\humanresourcesmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|solutionrelative:humanresources\\models\\humanresourcesmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|c:\\users\\user1\\source\\repos\\humanresources\\humanresources\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|solutionrelative:humanresources\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|c:\\users\\user1\\source\\repos\\humanresources\\humanresources\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|solutionrelative:humanresources\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|c:\\users\\user1\\source\\repos\\humanresources\\humanresources\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|solutionrelative:humanresources\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|c:\\users\\user1\\source\\repos\\humanresources\\humanresources\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|solutionrelative:humanresources\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|c:\\users\\user1\\source\\repos\\humanresources\\humanresources\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|solutionrelative:humanresources\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|c:\\users\\user1\\source\\repos\\humanresources\\humanresources\\migrations\\20250107073021_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|solutionrelative:humanresources\\migrations\\20250107073021_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|c:\\users\\user1\\source\\repos\\humanresources\\humanresources\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|solutionrelative:humanresources\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|c:\\users\\user1\\source\\repos\\humanresources\\humanresources\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|solutionrelative:humanresources\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|c:\\users\\user1\\source\\repos\\humanresources\\humanresources\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|solutionrelative:humanresources\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|c:\\users\\user1\\source\\repos\\humanresources\\humanresources\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E0AD0D-6340-4D8C-87C7-D03C3A0F7FB0}|HumanResources\\HumanResources.csproj|solutionrelative:humanresources\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Program.cs",
+              "RelativeDocumentMoniker": "HumanResources\\Program.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Program.cs",
+              "RelativeToolTip": "HumanResources\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T05:59:58.607Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HumanResourcesMaster.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Models\\HumanResourcesMaster.cs",
+              "RelativeDocumentMoniker": "HumanResources\\Models\\HumanResourcesMaster.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Models\\HumanResourcesMaster.cs",
+              "RelativeToolTip": "HumanResources\\Models\\HumanResourcesMaster.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T06:48:41.496Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "HumanResources\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "HumanResources\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T01:59:04.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "HumanResources\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "HumanResources\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAE4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T09:58:32.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\libman.json",
+              "RelativeDocumentMoniker": "HumanResources\\libman.json",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\libman.json",
+              "RelativeToolTip": "HumanResources\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-07T08:27:25.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250107073021_initialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Migrations\\20250107073021_initialCreate.cs",
+              "RelativeDocumentMoniker": "HumanResources\\Migrations\\20250107073021_initialCreate.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Migrations\\20250107073021_initialCreate.cs",
+              "RelativeToolTip": "HumanResources\\Migrations\\20250107073021_initialCreate.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T07:30:21.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HumanResourcesContext.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Data\\HumanResourcesContext.cs",
+              "RelativeDocumentMoniker": "HumanResources\\Data\\HumanResourcesContext.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Data\\HumanResourcesContext.cs",
+              "RelativeToolTip": "HumanResources\\Data\\HumanResourcesContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T07:22:16.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SystemUserData.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Models\\SystemUserData.cs",
+              "RelativeDocumentMoniker": "HumanResources\\Models\\SystemUserData.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Models\\SystemUserData.cs",
+              "RelativeToolTip": "HumanResources\\Models\\SystemUserData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T06:59:15.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "HumanResources\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "HumanResources\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T06:05:22.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "HumanResources\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "HumanResources\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T06:05:04.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HumanResources\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HumanResources\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBkAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T06:01:50.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HumanResources\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HumanResources\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T06:01:04.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "HumanResources\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "HumanResources\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T06:01:00.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HumanResources\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HumanResources\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T06:00:54.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "HumanResources\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "HumanResources\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T06:00:47.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "HumanResources\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\user1\\source\\repos\\HumanResources\\HumanResources\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "HumanResources\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T06:00:45.013Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
