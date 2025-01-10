@@ -1,0 +1,19 @@
+﻿################################################################################
+# 這個 .gitignore 檔案由 Microsoft(R) Visual Studio 自動建立。
+################################################################################
+
+/HumanResources.sln
+/.vs/ProjectEvaluation
+/.vs/HumanResources/v17/.futdcache.v2
+/.vs/HumanResources/v17/.suo
+/.vs/HumanResources/v17/DocumentLayout.backup.json
+/.vs/HumanResources/v17/DocumentLayout.json
+/.vs/HumanResources/FileContentIndex/25c03acc-11f5-4ab5-b80c-a685638955c6.vsidx
+/.vs/HumanResources/FileContentIndex/34217d3c-87cd-451a-a9e0-fed6f5545ca0.vsidx
+/.vs/HumanResources/FileContentIndex/57e6389a-0a61-43af-926b-518310eaf3aa.vsidx
+/.vs/HumanResources/FileContentIndex/5b9f95df-c446-4f80-89a7-655fca8fb549.vsidx
+/.vs/HumanResources/FileContentIndex/99d43d4a-b758-477f-8e3c-a71f31da7aaa.vsidx
+/.vs/HumanResources/FileContentIndex/9c694331-1173-435d-9f75-226cb506ee35.vsidx
+/.vs/HumanResources/FileContentIndex/b2e6204c-f90d-4036-80d6-68bb6d0de325.vsidx
+/.vs/HumanResources/FileContentIndex/ff2ff331-73d7-427a-af72-688cb92657ec.vsidx
+/.vs/HumanResources/DesignTimeBuild/.dtbcache.v2
