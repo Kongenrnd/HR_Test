@@ -1,0 +1,42 @@
+﻿@model HRSearchViewModel
+
+<h3>@Model.Title</h3>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Edit</th>
+            <th scope="col">Del</th>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone</th>
+            <th scope="col">CellPhone</th>
+            <th scope="col">WorkRegion</th>
+            <th scope="col">Ability</th>
+            <th scope="col">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (HumanResourcesMaster data in Model.HumanResourcesMasters)
+            {
+                <tr>
+                    <td>
+                        <a type="submit" class="btn btn-primary" asp-action="Edit" asp-route-id="@data.Id">Edit</a>
+                    </td>
+                    <td>
+                        <a type="button" class="btn btn-danger" asp-action="Delete" asp-route-id="@data.Id">Del</a>
+                    </td>
+                    <td>@data.Id</td>
+                    <td>@data.Name</td>
+                    <td>@data.Gender</td>
+                    <td>@data.Email</td>
+                    <td>@data.Phone</td>
+                    <td>@data.CellPhone</td>
+                    <td>@data.WorkRegion</td>
+                    <td>@data.Ability</td>
+                    <td>@data.Status</td>
+                </tr>
+            }
+    </tbody>
+</table>

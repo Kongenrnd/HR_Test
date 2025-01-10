@@ -1,51 +1,9 @@
 ﻿@page
-@model HumanResources.Views.Login.IndexModel
-@{
-}
-<script>
-    $(document).ready(function () {
-        $('#uid').textbox('textbox').focus();
-        $('#uid').textbox('textbox').bind('keydown', function (e) {
-            if (e.keyCode == 13) {
-                $('#pwd').textbox('textbox').focus();
-            }
-        });
-        $('#pwd').passwordbox('textbox').bind('keydown', function (e) {
-            if (e.keyCode == 13) {
-                formsubmit();
-            }
-        });
-        ReSize();
-        $(window).resize(function () {
-            ReSize();
-        });
 
-    });
-    function formsubmit() {
-        var msg = "";
-        if ($("#UserID").val() == "") {
-            msg = "請輸入帳號";
-        }
-        else if ($("#UserPwd").val() == "") {
-            msg = "請輸入密碼";
-        }
-        if (msg == "") {
-            $("#UserLogin").submit();
-        }
-    }
-    function ReSize() {
-        var ww = $(window).width();
-        $("#BackImage").css("background-image", "url(../Pic/bg4.jpg)");
-        if (ww < 650) {
-            $("#BackImage").css("background-size", "100% " + window.innerHeight + "px");
-        } else {
-            $("#BackImage").css("background-size", "100% auto");
-        }
-        var hh = (window.innerHeight - 340) / 2;
-        if (hh < 0) hh = 0;
-        $("#MainPanel").css("margin-top", hh + "px");
-    }
-</script>
+@{
+    
+}
+
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-6">
@@ -57,14 +15,14 @@
 
                     <form id="UserLogin" asp-controller="Login" asp-action="ValidLogin" method="post">
                         <div class="form-group">
-                            <label for="Username">Username</label>
-                            <input name="uid" id="uid" class="easyui-textbox" style="width:100%;height:30px" value=""
+                            <label for="uid">Username</label>
+                            <input for="uid" class="easyui-textbox" style="width:100%;height:30px" value=""
                                    data-options="prompt:'User ID',iconCls:'icon-man',iconWidth:38" autofocus>
                         </div>
 
                         <div class="form-group mt-3">
-                            <label for="Password">Password</label>
-                            <input name="pwd" id="pwd" class="easyui-textbox" style="width:100%;height:30px" value=""
+                            <label for="pwd">Password</label>
+                            <input for="pwd" class="easyui-textbox" style="width:100%;height:30px" value=""
                                    data-options="prompt:'Password',iconCls:'icon-man',iconWidth:38" autofocus>
                         </div>
 
@@ -73,7 +31,7 @@
                             <label class="form-check-label" for="RememberMe">Remember me</label>
                         </div>
 
-                        <button type="submit" class="btn btn-primary btn-block mt-4" onclick="formsubmit()">Login</button>
+                        <button type="submit" class="btn btn-primary btn-block mt-4">Login</button>
                     </form>
                     <!-- 顯示錯誤訊息 -->
                     @if (ViewBag.ErrorMessage != null)

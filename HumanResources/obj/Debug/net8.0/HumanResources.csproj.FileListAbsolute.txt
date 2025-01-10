@@ -171,3 +171,4 @@ C:\Users\user1\source\repos\HumanResources\HumanResources\bin\Debug\net8.0\runti
 C:\Users\user1\source\repos\HumanResources\HumanResources\obj\Debug\net8.0\HumanResources.csproj.AssemblyReference.cache
 C:\Users\user1\source\repos\HumanResources\HumanResources\obj\Debug\net8.0\HumanRes.80A59080.Up2Date
 C:\Users\user1\source\repos\HumanResources\HumanResources\bin\Debug\net8.0\libman.json
+C:\Users\user1\source\repos\HumanResources\HumanResources\obj\Debug\net8.0\HumanResources.sourcelink.json
