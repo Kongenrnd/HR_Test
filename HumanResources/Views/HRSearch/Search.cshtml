@@ -1,7 +1,21 @@
 ﻿@model HRSearchViewModel
 
-<h3>@Model.Title</h3>
-<table class="table">
+<div class="container">
+    <div class="row">
+        <div class="col-2">
+            <h3>@Model.Title</h3>
+
+        </div>
+        <div class="col-2">
+            <div style="align-items:end">
+                <form asp-controller="HRSearch" asp-action="Create" method="get">
+
+                    <button type="submit" class="bun btn-primary">新增資料</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <table class="table">
     <thead class="thead-dark">
         <tr>
             <th scope="col">Edit</th>
@@ -25,7 +39,7 @@
                         <a type="submit" class="btn btn-primary" asp-action="Edit" asp-route-id="@data.Id">Edit</a>
                     </td>
                     <td>
-                        <a type="button" class="btn btn-danger" asp-action="Delete" asp-route-id="@data.Id">Del</a>
+                    <a type="submit" class="btn btn-danger" asp-action="Delete" asp-route-id="@data.Id">Del</a>
                     </td>
                     <td>@data.Id</td>
                     <td>@data.Name</td>
@@ -40,3 +54,4 @@
             }
     </tbody>
 </table>
+</div>

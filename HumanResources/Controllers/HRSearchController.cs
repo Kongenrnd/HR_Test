@@ -7,15 +7,15 @@ namespace HumanResources.Controllers
 {
     public class HRSearchController : Controller
     {
-        HRRepository hRRepository;
-        public HRSearchController()
+        IHRRepository _hRRepository;
+        public HRSearchController(IHRRepository hRRepository)
         {
-            hRRepository = new HRRepository();
+            _hRRepository = hRRepository;
         }
         public IActionResult Search()
         {
             HRSearchViewModel model = new HRSearchViewModel();
-            model.HumanResourcesMasters = hRRepository.GetAllHRMasterData();
+            model.HumanResourcesMasters = _hRRepository.GetAllHRMasterData();
             model.Title = "人力資源總覽";
             return View(model);
         }
@@ -29,7 +29,7 @@ namespace HumanResources.Controllers
         public IActionResult Create(HumanResourcesMaster data)
         {
             var test = ModelState.Values;
-            bool sucess = hRRepository.AddHRMasterData(data);
+            bool sucess = _hRRepository.AddHRMasterData(data);
             if (sucess)
             {
                 return RedirectToAction("Search");
@@ -45,13 +45,13 @@ namespace HumanResources.Controllers
         public IActionResult Edit(int id)
         {
             HumanResourcesMaster data = new HumanResourcesMaster();
-            data = hRRepository.GetHRMasterDataByID(id);
+            data = _hRRepository.GetHRMasterDataByID(id);
             return View(data);
         }
         [HttpPost]
         public IActionResult Edit(HumanResourcesMaster data)
         {
-            var sucess = hRRepository.UpdateHRMasterData(data);
+            var sucess = _hRRepository.UpdateHRMasterData(data);
             if (sucess)
             {
                 return RedirectToAction("Search");
@@ -61,10 +61,17 @@ namespace HumanResources.Controllers
                 return RedirectToAction("Edit",new { id = data.Id });
             }
         }
-        [HttpPost]
+        [HttpGet]
+        [Route("~/[controller]/[action]/{id?}")]
         public IActionResult Delete(int id)
         {
-            var sucess = hRRepository.DeleteHRMasterData(id);
+            var model = _hRRepository.GetHRMasterDataByID(id);
+            return View(model);
+        }
+        [HttpPost]
+        public IActionResult Delete(HumanResourcesMaster data)
+        {
+            var sucess = _hRRepository.DeleteHRMasterData(data.Id);
             if (sucess)
             {
                 return RedirectToAction("Search");

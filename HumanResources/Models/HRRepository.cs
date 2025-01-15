@@ -3,12 +3,13 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace HumanResources.Models
 {
-    public class HRRepository
+    public class HRRepository: IHRRepository
     {
-        HumanResourcesContext _context;
-        public HRRepository()
+        
+        private readonly HumanResourcesContext _context;
+        public HRRepository(HumanResourcesContext context)
         {
-            _context = new HumanResourcesContext();
+            _context = context;
         }
         public List<HumanResourcesMaster> GetAllHRMasterData() 
         {

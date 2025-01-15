@@ -1,0 +1,11 @@
+﻿@model HumanResourcesMaster
+<form asp-controller="HRSearch" asp-action="Delete" method="post">
+    <div>
+        <p>確定刪除以下資料?</p>
+        <p>@Model.Id</p>
+    </div>
+    <div>
+            <button type="submit" class="btn btn-secondary" asp-controller="HRSearch" asp-action="Search">Cancel</button>
+            <button type="submit" class="btn btn-primary" asp-controller="HRSearch" asp-action="Delete">Delete</button>
+    </div>
+</form>

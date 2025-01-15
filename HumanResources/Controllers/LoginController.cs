@@ -6,10 +6,10 @@ namespace HumanResources.Controllers
     [Route("[Controller]")]
     public class LoginController : Controller
     {
-        HumanResourcesContext context;
-        public LoginController() 
+        private readonly HumanResourcesContext _context;
+        public LoginController(HumanResourcesContext context) 
         {
-            context = new HumanResourcesContext();
+           _context = context;
         }
         [HttpGet]
         [Route("[Action]")]
@@ -32,7 +32,7 @@ namespace HumanResources.Controllers
             else
             { 
                 var list = (
-                        from a in this.context.SystemUserDatas
+                        from a in _context.SystemUserDatas
                         where a.UserAccount == uid & a.UserPassword == pwd & a.UserAuth== "啟用"
                         select new { a.UserAccount}
                         ).FirstOrDefault();
