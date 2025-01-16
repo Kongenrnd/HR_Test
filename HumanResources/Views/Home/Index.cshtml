@@ -1,7 +1,15 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+<script>
+    var token = @ViewBag.Token
+    // 將Token保存到localStorage
+    localStorage.setItem('jwtToken', token)
+    // 或者將Token保存到sessionStorage
+    // sessionStorage.setItem('jwtToken', token);
+    // 確認Token已經儲存
+    console.log('JWT Token in localStorage: ', localStorage.getItem('jwtToken'))
+</script>
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>

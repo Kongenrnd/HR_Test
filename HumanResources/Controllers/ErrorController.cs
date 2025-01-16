@@ -9,12 +9,16 @@ namespace HumanResources.Controllers
         public IActionResult HttpsStatusCodeHandler(int statusCode)
         {
             var httpsStatusCodeResult = HttpContext.Features.Get<IStatusCodeReExecuteFeature>();
-            ViewBag.ErrorMessage = "無法導頁至" + httpsStatusCodeResult.OriginalPath;
-            switch (statusCode) 
-            {
-                case 404:
-                    ViewBag.ErrorMessage = "無法導頁至"+httpsStatusCodeResult.OriginalPath;
-                break;
+            ViewBag.ErrorMessage = "無法導頁";
+            if (httpsStatusCodeResult != null)
+            { 
+                ViewBag.ErrorMessage = "無法導頁至" + httpsStatusCodeResult.OriginalPath;
+                switch (statusCode) 
+                {
+                    case 404:
+                        ViewBag.ErrorMessage = "無法導頁至"+httpsStatusCodeResult.OriginalPath;
+                    break;
+                }
             }
             return View("NotFound");
         }

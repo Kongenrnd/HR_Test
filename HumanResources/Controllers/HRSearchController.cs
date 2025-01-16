@@ -46,6 +46,11 @@ namespace HumanResources.Controllers
         {
             HumanResourcesMaster data = new HumanResourcesMaster();
             data = _hRRepository.GetHRMasterDataByID(id);
+            if (data == null)
+            {
+                Response.StatusCode = 404;
+                return RedirectToAction("NotFound", "Error");
+            }
             return View(data);
         }
         [HttpPost]

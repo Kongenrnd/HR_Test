@@ -91,5 +91,22 @@ namespace HumanResources.Models
                 return false;
             }
         }
+
+        public bool AddUserAccount(SystemUserData data)
+        {
+            try
+            {
+                if (data != null)
+                { 
+                    _context.SystemUserDatas.Add(data);
+                    _context.SaveChanges();
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
     }
 }

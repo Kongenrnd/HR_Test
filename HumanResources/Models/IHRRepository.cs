@@ -10,5 +10,6 @@ namespace HumanResources.Models
         bool AddHRMasterData(HumanResourcesMaster data);
         bool UpdateHRMasterData(HumanResourcesMaster data);
         bool DeleteHRMasterData(int id);
+        bool AddUserAccount(SystemUserData data);
     }
 }

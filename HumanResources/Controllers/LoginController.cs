@@ -1,4 +1,5 @@
 ﻿using HumanResources.Data;
+using HumanResources.Models;
 using HumanResources.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 namespace HumanResources.Controllers
@@ -23,7 +24,7 @@ namespace HumanResources.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult ValidLogin(string uid, string pwd)
+        public ActionResult ValidLogin(LoginModel loginData)
         {
             if (!ModelState.IsValid)
             {
@@ -33,13 +34,18 @@ namespace HumanResources.Controllers
             { 
                 var list = (
                         from a in _context.SystemUserDatas
-                        where a.UserAccount == uid & a.UserPassword == pwd & a.UserAuth== "啟用"
+                        where a.UserAccount == loginData.uid & a.UserPassword == loginData.pwd & a.UserAuth== "啟用"
                         select new { a.UserAccount}
                         ).FirstOrDefault();
                 if (list != null)
                 {
-                    return RedirectToAction("Privacy", "Home");
+
+                    var token = TokenService.GenerateToken(loginData.uid);
+                    ViewBag.Token = token;
+                    return RedirectToAction("Index", "Home", token);
+                    //return Ok(new { token });
                 }
+
                 return RedirectToAction("Index", new { errorCode = "error" });
             }
         }
