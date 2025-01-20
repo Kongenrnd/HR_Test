@@ -12,6 +12,7 @@ namespace HumanResources.Controllers
     public class LoginController : Controller
     {
         private readonly HumanResourcesContext _context;
+        private readonly PasswordHasher<SystemUserData> passwordHasher;
         public LoginController(HumanResourcesContext context) 
         {
            _context = context;
@@ -68,7 +69,7 @@ namespace HumanResources.Controllers
         }
         // 這是處理登出的動作
         [HttpGet]
-        [Route("[action]")]
+        [Route("[Action]")]
         public IActionResult logout()
         {
             return View(); // 登出後重定向到首頁

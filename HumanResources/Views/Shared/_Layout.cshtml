@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@{
+    var isAdmin = User.IsInRole("Admin");
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -41,8 +44,19 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="HRSearch" asp-action="Search">HR</a>
                         </li>
-                        <li class="nav-item">
+                        @* <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="AccountManagement" asp-action="AddAccount">AccountManagement</a>
+                        </li> *@
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                AccountManagement
+                            </a>
+                            <ul class="dropdown-menu">
+                                @if (isAdmin)
+                                {
+                                    <li><a class="nav-link text-dark" asp-area="" asp-controller="AccountManagement" asp-action="AddAccount">AddAccount</a></li>
+                                }
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>

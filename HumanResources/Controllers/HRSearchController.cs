@@ -40,7 +40,6 @@ namespace HumanResources.Controllers
             {
                 return View();
             }
-
         }
         [HttpGet]
         [Route("~/[controller]/[action]/{id?}")]
