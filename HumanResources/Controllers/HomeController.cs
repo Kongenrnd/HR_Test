@@ -13,9 +13,8 @@ namespace HumanResources.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index(string? token)
+        public IActionResult Index()
         {
-            ViewBag.Token = token;
             return View();
         }
 

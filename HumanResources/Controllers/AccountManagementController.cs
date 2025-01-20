@@ -1,9 +1,11 @@
 ﻿using HumanResources.Models;
 using HumanResources.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HumanResources.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class AccountManagementController : Controller
     {
         IHRRepository _hRRepository;

@@ -1,28 +1,29 @@
 ﻿using System.Text;
 using HumanResources.Data;
 using HumanResources.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
-
+// 設定 Cookie 認證
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Login/Index"; // 登入頁面
+        options.LogoutPath = "/Login/Logout"; // 登出頁面
+        options.AccessDeniedPath = "/Home/Index"; // 訪問拒絕頁面
+    });
+// 添加授權服務
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
+    options.AddPolicy("NormalUserOnly", policy => policy.RequireRole("NormalUser"));
+});
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-// 配置JWT
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
-    {
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateLifetime = true,
-            ValidIssuer = "YourIssuer",
-            ValidAudience = "YourAudience",
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSecretKey"))
-        };
-    });
+
 var configuration = new ConfigurationBuilder()
     .SetBasePath(AppContext.BaseDirectory)
     .AddJsonFile("appsettings.json", optional: false)

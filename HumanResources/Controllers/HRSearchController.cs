@@ -1,10 +1,12 @@
 ﻿using HumanResources.Data;
 using HumanResources.Models;
 using HumanResources.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HumanResources.Controllers
 {
+    [Authorize]
     public class HRSearchController : Controller
     {
         IHRRepository _hRRepository;

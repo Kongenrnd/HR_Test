@@ -27,7 +27,7 @@ namespace HumanResources.ViewModels
         [Display(Name = "建立時間")]
         public DateTime CreateTime { get; set; }
         [Display(Name = "最後修改者")]
-        public string LastModifiedBy { get; set; }
+        public string?  LastModifiedBy { get; set; }
         [Display(Name = "最後修改時間")]
         public DateTime LastModifiedTime { get; set; }
     }
